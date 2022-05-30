@@ -1,3 +1,4 @@
+import React from 'react';
 import './Card.css';
 
 // WRAPPER COMPONENT
@@ -5,7 +6,6 @@ import './Card.css';
 
 function Card({ children, className }) {
   const classes = 'card ' + className;
-  console.log(classes);
   return <div className={classes}>{children}</div>;
 }
 

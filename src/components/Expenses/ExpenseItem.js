@@ -1,3 +1,4 @@
+import React from 'react';
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
@@ -10,6 +11,7 @@ function ExpenseItem({ title, date, amount }) {
         <h2>{title}</h2>
         <div className="expense-item__price">${amount}</div>
       </div>
+      <button>Change title</button>
     </Card>
   );
 }
